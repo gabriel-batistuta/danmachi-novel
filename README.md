@@ -10,4 +10,4 @@ a automatic script of translate (espãnol - pt-br) for danmachi novels (pdf file
 
 - **scraping pdf files** <br>
 *pdfplumber GitHub Repository* - <a href="https://github.com/jsvine/pdfplumber">**https://github.com/jsvine/pdfplumber**</a> <br><br>
-*pdfplumber library* example: <a href="https://erico-coutojr.medium.com/data-scraping-em-arquivo-pdf-1ea1d0931d39">**https://erico-coutojr.medium.com/data-scraping-em-arquivo-pdf-1ea1d0931d39**</a>
+*pdfplumber library* example - <a href="https://erico-coutojr.medium.com/data-scraping-em-arquivo-pdf-1ea1d0931d39">**https://erico-coutojr.medium.com/data-scraping-em-arquivo-pdf-1ea1d0931d39**</a>

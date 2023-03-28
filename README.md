@@ -1,6 +1,5 @@
 # Dungeon ni deai novel translator
-a automatic script of translate (espãnol - pt-br) for danmachi novels (pdf files) of <a href="kurosaki-vizard.blogspot.com/">**kurosaki vizard scan**</a>
-
+a automatic script of translate (espãnol - pt-br) for danmachi novels (pdf files) of https://kurosaki-vizard.blogspot.com
 # Librarys
 - **translate library**<br>
 *googletrans Documentation* - <a href="https://py-googletrans.readthedocs.io/en/latest/">**https://py-googletrans.readthedocs.io/en/latest/**</a><br><br>

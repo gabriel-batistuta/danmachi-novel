@@ -1,3 +1,5 @@
-novel.pdf
+*.pdf
+*.html
+test.py
 __pycache__
 /novels

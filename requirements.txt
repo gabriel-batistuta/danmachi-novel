@@ -1,0 +1,7 @@
+googletrans==4.0.0-rc1
+PyPDF2<3.0
+pillow
+pytesseract
+
+[pdf2htmlEX]
+[sudo apt-get install tesseract-ocr tesseract-ocr-por]

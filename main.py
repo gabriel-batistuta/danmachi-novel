@@ -1,31 +1,19 @@
-from modules import folder, link, pdf, chapters, site
-from debug import debug
+# from modules import folder, link, pdf, chapters, site
+# from debug import debug
+from googletrans import Translator
+from os import listdir
 
-def main():
-    debug.clearDiretory()
-    folder.makeFolder()
-    url = link.getUrl()
-    soup = site.filterUrl(url)
-    links = site.getLinks(soup)
-    title = site.getTitle(soup)
-    folder.makeNovelFolder(title)
-    pdf.main(links, title)
-    pages = chapters.getPages()
-    pdf.writeNovel(pages, title)
+URL_COM = 'translate.google.com'
+URL_LV = 'translate.google.lv'
+LANG = "pt"
 
-main()
+translator = Translator(service_urls=[URL_COM, URL_LV])
+# translation = translator.translate(text, dest=lang)
 
-# translator = Translator()
+if __name__ == '__main__':
+    for file in listdir('./'):
+        if '.pdf' in file:
+            # translate_pdf(file, LANG)
+            print('concluido')
 
-# pdf = pdfplumber.open('./novel.pdf')
-
-# pages = pdf.pages
-
-# for page in pages:
-#     text = page.extract_text()
-#     text = text.replace('Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Kurosaki-Vizard no Fansub', '')
-#     text = text.replace('Kurosaki-Vizard no Fansub Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka', '')
-#     lista = text.split('\n')
-#     for l in lista:
-#         trad = translator.translate(l, dest='pt')
-#         print(trad.text + '\n')
+            
